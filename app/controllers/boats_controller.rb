@@ -37,14 +37,14 @@ def destroy
 
   @boat.destroy
 
-  redirect_to boat_path
+  redirect_to cities_path
 
 end
 
 private
 
 def boat_params
-  params.require(:boat).permit(:name, :seats, :price, :image_url)
+  params.require(:boat).permit(:name, :seats, :price, :image_url, :city_id)
 end
 
 

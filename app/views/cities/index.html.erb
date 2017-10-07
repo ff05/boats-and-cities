@@ -1,6 +1,7 @@
 <h1>Cities</h1>
 <% @cities.each do |city| %>
-<p> <%= city.name %> </p>
-<!-- <p><%= link_to city.name, city_path(city.id) %></p> -->
+<img src="<%= city.image_url %>" width="400" >
+<p><%= link_to city.name, city_path(city.id) %></p>
+
 <hr/>
 <% end %>

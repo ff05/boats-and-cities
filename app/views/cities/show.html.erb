@@ -1,0 +1,20 @@
+<p>
+  <strong>Name:</strong>
+  <%= @city.name %>
+</p>
+
+<h4>List of Boats</h4>
+
+<% if @city.boats.any? %>
+  <ul>
+    <% @city.boats.each do |boat| %>
+      <li>
+        <p><%= link_to boat.name, boat_path(boat.id) %></p>
+        <img src="<%= boat.image_url %>" width="400" ></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>There are no boats in this city.</p>
+<% end %>
+
+<%= link_to '[Add Boat]', new_boat_path(@city) %> 

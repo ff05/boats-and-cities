@@ -13,3 +13,4 @@
  *= require_tree .
  *= require_self
  */
+body { font-family: Lato, "Helvetica Neue", Helvetica, arial, sans-serif }      input, textarea {         font: inherit;         outline: 0;         border-radius: 10;     }        a:link {       text-decoration: none;         color: green;     }      a:visited {       text-decoration: none;         color: green;     }      a:hover {       text-decoration: none;         color: red;     }      a:active {       text-decoration: none;         color: green;     }
