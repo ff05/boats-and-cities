@@ -3,3 +3,6 @@
 <p>Seats: <%= @boat.seats %></p>
 <p>Price: <%= @boat.price %></p>
 <%= image_tag @boat.image_url %>
+
+<p><%= link_to "[Edit]", edit_boat_path(@boat.id) %>
+<span><%= link_to "[Delete]", boat_path(@boat.id), method: :delete, data: { confirm: "Are you sure?" } %></span></p>
