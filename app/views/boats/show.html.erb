@@ -1,2 +1,5 @@
-<h1>Show Boat</h1>
-<p><%= @boat.name %></p>
+<h1><%= @boat.name %></h1>
+
+<p>Seats: <%= @boat.seats %></p>
+<p>Price: <%= @boat.price %></p>
+<%= image_tag @boat.image_url %>
