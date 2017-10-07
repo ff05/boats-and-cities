@@ -1,0 +1,17 @@
+<h1>Boats</h1>
+
+<%= form_for @boat do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+
+<%= f.label :seats %>
+<%= f.number_field :seats %>
+
+<%= f.label :price %>
+<%= f.number_field :price %>
+
+<%= f.label :image_url %>
+<%= f.text_field :image_url %>
+
+<%= f.submit (@boat.new_record? ? "Create" : "Update") %>
+<% end %>
