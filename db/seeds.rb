@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-City.destroy_all
 Boat.destroy_all
+City.destroy_all
 
 city1 = City.create!( { name: 'Rotterdam', image_url: 'https://media-cdn.tripadvisor.com/media/photo-s/03/e7/69/5e/rotterdam.jpg'} )
 city2 = City.create!( { name: 'Amsterdam', image_url: 'http://www.quotenet.nl/var/hearst/storage/images/quote/nieuws/quote-tip-koop-voorlopig-geen-huis-in-amsterdam-of-trek-naar-noord-176327/3228387-1-dut-NL/Quote-tip-koop-voorlopig-geen-huis-in-Amsterdam-of-trek-naar-Noord_crop1000x500.jpg'} )
