@@ -5,6 +5,7 @@ Ruby on Rails app I made with a group of 5 students during a Codaisseur hackatho
 <img align="left" width="46%" src="https://github.com/ff05/boats-and-cities/blob/master/app/assets/images/city.png" alt="City"/>
 <img align="left" width="46%" src="https://github.com/ff05/boats-and-cities/blob/master/app/assets/images/boat.png" alt="Boat"/>
 <img align="left" width="46%" src="https://github.com/ff05/boats-and-cities/blob/master/app/assets/images/add-boat.png" alt="Add Boat"/>
+<br clear="left"/>
 
 ## Database Structure
 
