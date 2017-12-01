@@ -1,24 +1,4 @@
-# README
+# Boats and Cities
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img style="width: 50%" src="https://github.com/ff05/boats-and-cities/tree/master/app/assets/images/city.png" alt="City"/>
+<img style="width: 50%" src="https://github.com/ff05/boats-and-cities/tree/master/app/assets/images/boat.png" alt="Boat"/>
